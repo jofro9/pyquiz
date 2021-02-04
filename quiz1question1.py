@@ -13,14 +13,14 @@ while not done:
     val = float(input())
     inputs.append(val)
     iter += 1
-    
+
 def maxFunction(inputs):
     max = 0
 
     for i in inputs:
         if int(i) > max:
             max = int(i)
-    
+
     return max
 
 def minFunction(inputs):
@@ -29,7 +29,7 @@ def minFunction(inputs):
     for i in inputs:
         if int(i) < min:
             min = int(i)
-    
+
     return min
 
 # testing
