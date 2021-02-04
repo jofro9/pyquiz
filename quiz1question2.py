@@ -12,7 +12,7 @@ while not done:
 
     elif val > 0:
         inputs.append(val)
-        
+
     else:
         continue
 
@@ -22,7 +22,7 @@ def maxFunction(inputs):
     for i in inputs:
         if float(i) > max:
             max = float(i)
-    
+
     return max
 
 def minFunction(inputs):
@@ -31,12 +31,12 @@ def minFunction(inputs):
     for i in inputs:
         if float(i) < min:
             min = float(i)
-    
+
     return min
 
 def averageFunction(inputs):
     sum = 0
-    
+
     for i in inputs:
         sum += i
 
